@@ -9,12 +9,20 @@
     "build": "heft build --clean"
   },
   "devDependencies": {
-    "@rushstack/eslint-config": "*",
-    "@rushstack/heft": "*",
-    "@rushstack/heft-lint-plugin": "*",
-    "@rushstack/heft-typescript-plugin": "*",
-    "typescript": "~4.7.0",
+    "@rushstack/eslint-config": "workspace:*",
+    "@rushstack/heft": "workspace:*",
+    "@rushstack/heft-lint-plugin": "workspace:*",
+    "@rushstack/heft-typescript-plugin": "workspace:*",
+    "typescript": "~4.9.5",
     "tslint": "~5.20.1",
     "eslint": "~8.7.0"
+  },
+  "dependenciesMeta": {
+    "@rushstack/heft-typescript-plugin": {
+      "injected": true
+    },
+    "@rushstack/heft-lint-plugin": {
+      "injected": true
+    }
   }
 }

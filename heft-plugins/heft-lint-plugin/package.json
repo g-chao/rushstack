@@ -10,7 +10,7 @@
   "homepage": "https://rushstack.io/pages/heft/overview/",
   "license": "MIT",
   "scripts": {
-    "build": "heft test --clean",
+    "build": "heft test --clean && pnpm-sync",
     "start": "heft build-watch",
     "_phase:build": "heft run --only build -- --clean"
   },

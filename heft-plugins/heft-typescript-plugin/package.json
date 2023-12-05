@@ -12,7 +12,7 @@
   "types": "dist/heft-typescript-plugin.d.ts",
   "license": "MIT",
   "scripts": {
-    "build": "heft test --clean",
+    "build": "heft test --clean && pnpm-sync",
     "start": "heft build-watch",
     "_phase:build": "heft run --only build -- --clean"
   },

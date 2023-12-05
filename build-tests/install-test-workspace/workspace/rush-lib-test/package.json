@@ -9,12 +9,20 @@
     "start": "node lib/start.js"
   },
   "dependencies": {
-    "@microsoft/rush-lib": "*",
-    "colors": "^1.4.0"
+    "@microsoft/rush-lib": "workspace:*",
+    "colors": "~1.2.1"
   },
   "devDependencies": {
     "@types/node": "18.17.15",
     "rimraf": "^4.1.2",
     "typescript": "~5.0.4"
+  },
+  "dependenciesMeta": {
+    "@microsoft/rush-lib": {
+      "injected": true
+    },
+    "@rushstack/rush-sdk": {
+      "injected": true
+    }
   }
 }
