@@ -848,25 +848,29 @@
       "packageName": "rush-lib-test",
       "projectFolder": "build-tests-subspace/rush-lib-test",
       "reviewCategory": "tests",
-      "shouldPublish": false
+      "shouldPublish": false,
+      "subspaceName": "build-tests-subspace"
     },
     {
       "packageName": "rush-sdk-test",
       "projectFolder": "build-tests-subspace/rush-sdk-test",
       "reviewCategory": "tests",
-      "shouldPublish": false
+      "shouldPublish": false,
+      "subspaceName": "build-tests-subspace"
     },
     {
       "packageName": "typescript-newest-test",
       "projectFolder": "build-tests-subspace/typescript-newest-test",
       "reviewCategory": "tests",
-      "shouldPublish": false
+      "shouldPublish": false,
+      "subspaceName": "build-tests-subspace"
     },
     {
       "packageName": "typescript-v4-test",
       "projectFolder": "build-tests-subspace/typescript-v4-test",
       "reviewCategory": "tests",
-      "shouldPublish": false
+      "shouldPublish": false,
+      "subspaceName": "build-tests-subspace"
     },
     {
       "packageName": "localization-plugin-test-01",
